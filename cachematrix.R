@@ -15,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
   {
     if(ncol(y) != nrow(y))
     {
-      message("Error : y is not an square matrix")
+      message("Error : matrix used to set value should be an sqaure matrix")
       return
     }
     x <<- y
